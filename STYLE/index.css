@@ -1,0 +1,29 @@
+html{
+  height:100%;
+}
+
+body{
+  height:100%;
+  margin:0;
+}
+
+.header{
+  border-style: solid;
+  border-color:red; 
+}
+
+.mainContent{
+  min-height: calc(100vh - 50px);
+  border-style:solid;
+  border-color:blue;
+}
+
+.footer{
+  height:50px;
+  border-style: solid;
+  border-color:red;
+}
+
+/* about position :  https://developer.mozilla.org/ko/docs/Web/CSS/position */
+/* about calc() : ... */
+/* about vh() : ... */
