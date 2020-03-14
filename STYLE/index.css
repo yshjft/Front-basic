@@ -5,11 +5,24 @@ html{
 body{
   height:100%;
   margin:0;
+  font-size:20px;
 }
 
 .header{
   border-style: solid;
-  border-color:red; 
+  border-color:red;
+  font-weight: bold;
+}
+
+.headerTop{
+  font-size:30px;
+}
+
+.headerTitle{
+  font-size:45px;
+}
+
+.headerBottom{
 }
 
 .mainContent{
@@ -18,10 +31,28 @@ body{
   border-color:blue;
 }
 
+.dateAndTime{
+  border-style:solid;
+}
+
 .footer{
-  height:50px;
+  /* height:50px; */
   border-style: solid;
   border-color:red;
+  font-size:20px;
+}
+
+.footerTitle{
+  font-Weight:bold;
+}
+
+
+.footerOwner{
+
+}
+
+.footerGithub{
+  font-weight: bold;
 }
 
 /* about position :  https://developer.mozilla.org/ko/docs/Web/CSS/position */
